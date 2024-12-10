@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.content__containers{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container__title{
+    background-color: #F885C2;
+    color: black;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.container__s1__title,.container__s2__title,.container__s3__title{
+    text-align: center;
+}
+
+.content__container1,.content__container2,.content__container3{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.container__s1__content,.container__s2__content,.container__s3__content{
+    border: 2px gray solid;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.container__s1__content div{
+    display: flex;
+    padding: 5px;
+}
+
+.container__s1__content p{
+    margin-left: 5px;
+}
+
+.container__s2__content div{
+    display: flex;
+    padding: 5px;
+}
+
+.container__s2__content p{
+    margin-left: 5px;
+}
+
+.container__s3__content div{
+    display: flex;
+    padding: 5px;
+}
+
+.container__s3__content p{
+    margin-left: 5px;
+}
+
+.content__container1,.content__container2,.content__container3:hover{
+    cursor: pointer;
+}
